@@ -1,0 +1,168 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Task Container */
+#task-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 450px;
+}
+
+/* Header */
+h1 {
+    font-size: 26px;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#task-input:focus {
+    border-color: #0077b6;
+    box-shadow: 0 0 5px rgba(0, 119, 182, 0.5);
+}
+
+/* Add Task Button */
+#add-task {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#add-task:hover {
+    background-color: #005f86;
+    transform: scale(1.05);
+}
+
+/* Task List */
+#task-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.task-item:hover {
+    background-color: #f1f9ff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* High Priority */
+.high-priority {
+    border-left: 5px solid #f94144;
+    background-color: #fff5f5;
+    font-weight: 600; /* Emphasized font weight */
+}
+
+/* Completed Task */
+.task-completed {
+    border-left: 5px solid #38b000;
+    background-color: #eaffea;
+}
+
+/* Checkbox */
+.task-checkbox {
+    margin-right: 15px;
+    cursor: pointer;
+    accent-color: #0077b6;
+}
+
+/* Task Text */
+.task-text {
+    flex-grow: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.high-priority .task-text {
+    font-weight: 600;
+}
+
+/* Priority Button */
+.priority-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f94144;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.priority-btn:hover {
+    background-color: #c92a2a;
+    transform: scale(1.05);
+}
+
+/* Clear All Button */
+#clear-tasks {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #023e8a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+#clear-tasks:hover {
+    background-color: #001845;
+    transform: scale(1.05);
+}
+
+

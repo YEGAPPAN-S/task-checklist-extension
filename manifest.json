@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "My Task Checklist",
+  "description": "A simple and interactive task checklist with high-priority and completion features.",
+  "version": "1.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
