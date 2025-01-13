@@ -21,6 +21,3 @@ A simple and intuitive Chrome extension for managing tasks and checklists. Stay 
 3. Check off completed tasks by clicking the checkbox.
 4. Edit or delete tasks by using the respective options.
 5. Your tasks will be saved automatically for future reference.
-
-## Contributing
-We welcome contributions! Fork this repository, add features, and submit a pull request.
